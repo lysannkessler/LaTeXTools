@@ -4,11 +4,6 @@ LaTeX Package keymap for OSX
 [
 	// { "keys": ["ctrl+alt+t"], "command": "make_pdf" }, // now bound to Command-B via the standard build system
 	{ "keys": ["ctrl+alt+s"], "command": "tex_sections" },
-	/* why not use TextMate's keybindings? 
-	   we only clobber next-tab and previous-tab, whihc are also bound
-	   to arrow keys */
-	{ "keys": ["super+shift+right_bracket"], "command": "latexcmd"},
-	{ "keys": ["super+shift+left_bracket"], "command": "latexenv"},
 	{ "keys": ["super+shift+period"], "command": "latex_env_closer"}, 
 	/* can't use forward slash or period; also, why not CMD? */
 	{ "keys": ["super+alt+forward_slash"], "command": "tex_macro"},
